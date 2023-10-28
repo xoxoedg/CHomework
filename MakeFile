@@ -1,0 +1,5 @@
+CFLAGS = -g -WALL
+CC = gcc
+
+main:
+	$(CC) $(CFLAGS) main.c -o main
